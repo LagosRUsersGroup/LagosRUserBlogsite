@@ -1,5 +1,5 @@
-baseurl: https://devcows.github.io/hugo-universal-theme/
-title: Universal
+baseurl: https://lagosrusers.netlify.app/
+title: LagosRusersGroup
 theme: hugo-universal-theme
 languageCode: en-us
 defaultContentLanguage: en
