@@ -335,7 +335,7 @@ params:
       about us.
     title: Testimonials
   topbar:
-    enable: yes
+    enable: no
     text: "<p class=\"hidden-sm hidden-xs\">Contact us on +234  or lagos.r.users.group@gmail.com.</p>\r\n
       \     <p class=\"hidden-md hidden-lg\"><a href=\"tel:+234 \" data-animate-hover=\"pulse\"><i
       class=\"fas fa-phone\"></i></a>\r\n      <a href=\"mailto:lagos.r.users.group@gmail.com\"
