@@ -327,7 +327,7 @@ params:
     subtitle: We have prepared for you more than 40 different HTML pages, including
       5 variations of homepage.
     title: Do you want to see more?
-  style: default
+  style: blue
   testimonials:
     enable: no
     subtitle: We have worked with many clients and we always like to hear they come
