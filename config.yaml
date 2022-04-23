@@ -14,241 +14,43 @@ menu:
       name: Home
       url: /
       weight: 1
-    - name: 'Option 1: Default Page'
-      parent: menu.home
-      url: /
-      weight: 1
-    - name: 'Option 2: Application'
-      parent: menu.home
-      url: /
-      weight: 2
-    - name: 'Option 3: Startup'
-      parent: menu.home
-      url: /
-      weight: 3
-    - name: 'Option 4: Agency'
-      parent: menu.home
-      url: /
-      weight: 4
-    - name: 'Option 5: Portfolio'
-      parent: menu.home
-      url: /
-      weight: 5
-    - identifier: menu.features
-      name: Features
-      url: /img/template-easy-customize.png
-      weight: 3
-    - identifier: section.shortcodes
-      name: Shortcodes
-      parent: menu.features
-      post: 1
-      url: ''
-      weight: 1
-    - identifier: section.headervariations
-      name: Header variations
-      parent: menu.features
-      post: 2
-      url: ''
-      weight: 2
-    - name: Accordions
-      parent: section.shortcodes
-      url: ''
-      weight: 1
-    - name: Alerts
-      parent: section.shortcodes
-      url: ''
-      weight: 2
-    - name: Buttons
-      parent: section.shortcodes
-      url: ''
-      weight: 3
-    - name: Content Boxes
-      parent: section.shortcodes
-      url: ''
-      weight: 4
-    - name: Horizontal Blocks
-      parent: section.shortcodes
-      url: ''
-      weight: 5
-    - name: Pagination
-      parent: section.shortcodes
-      url: ''
-      weight: 6
-    - name: Tabs
-      parent: section.shortcodes
-      url: ''
-      weight: 7
-    - name: Typography
-      parent: section.shortcodes
-      url: ''
-      weight: 8
-    - name: Default Sticky Header
-      parent: section.headervariations
-      url: ''
-      weight: 1
-    - name: No Sticky Header
-      parent: section.headervariations
-      url: ''
-      weight: 2
-    - name: Light Header
-      parent: section.headervariations
-      url: ''
-      weight: 3
-    - identifier: menu.portfolio
-      name: Portfolio
-      url: /img/template-homepage.png
-      weight: 3
-    - identifier: section.portfolio
-      name: Portfolio
-      parent: menu.portfolio
-      post: 1
-      url: ''
-      weight: 1
-    - name: 2 Columns
-      parent: section.portfolio
-      url: ''
-      weight: 1
-    - name: 2 Columns With Negative Space
-      parent: section.portfolio
-      url: ''
-      weight: 2
-    - name: 3 Columns
-      parent: section.portfolio
-      url: ''
-      weight: 3
-    - name: 3 Columns With Negative Space
-      parent: section.portfolio
-      url: ''
-      weight: 4
-    - name: 4 Columns
-      parent: section.portfolio
-      url: ''
-      weight: 5
-    - name: 4 Columns With Negative Space
-      parent: section.portfolio
-      url: ''
-      weight: 6
-    - name: Portfolio - detail
-      parent: section.portfolio
-      url: ''
-      weight: 7
-    - name: Portfolio - detail 2
-      parent: section.portfolio
-      url: ''
-      weight: 8
-    - identifier: section.about
-      name: About
-      parent: menu.portfolio
-      post: 2
-      url: ''
-      weight: 2
-    - name: About Us
-      parent: section.about
-      url: ''
-      weight: 1
-    - name: Our Team
-      parent: section.about
-      url: ''
-      weight: 2
-    - identifier: section.marketing
-      name: Marketing
-      parent: menu.portfolio
-      post: 2
-      url: ''
-      weight: 3
-    - name: Packages
-      parent: section.marketing
-      url: ''
-      weight: 1
-    - identifier: menu.allpages
-      name: All Pages
-      url: ''
-      weight: 4
-    - identifier: section.ap-home
-      name: Home
-      parent: menu.allpages
-      post: 1
-      url: ''
-      weight: 1
-    - identifier: section.ap-about
-      name: About
-      parent: menu.allpages
-      post: 1
-      url: ''
-      weight: 2
-    - identifier: section.ap-marketing
-      name: Marketing
-      parent: menu.allpages
-      post: 1
-      url: ''
-      weight: 3
-    - identifier: section.ap-portfolio
-      name: Portfolio
-      parent: menu.allpages
-      post: 2
-      url: ''
-      weight: 1
-    - identifier: section.ap-userpages
-      name: User Pages
-      parent: menu.allpages
-      post: 2
-      url: ''
-      weight: 2
-    - identifier: section.ap-shop
-      name: Shop
-      parent: menu.allpages
-      post: 3
-      url: ''
-      weight: 1
-    - identifier: section.ap-shoporderprocess
-      name: Shop - Order Process
-      parent: menu.allpages
-      post: 3
-      url: ''
-      weight: 2
-    - identifier: section.ap-contact
-      name: Contact
-      parent: menu.allpages
-      post: 4
-      url: ''
-      weight: 1
-    - identifier: section.ap-pages
-      name: Pages
-      parent: menu.allpages
-      post: 4
-      url: ''
-      weight: 2
-    - identifier: section.ap-blog
-      name: Blog
-      parent: menu.allpages
-      post: 4
-      url: /blog/
-      weight: 3
-    - name: Blog Listing Big
-      parent: section.ap-blog
-      url: /blog/
-      weight: 1
     - identifier: menu.blog
       name: Blog
       url: /blog/
-      weight: 5
-    - identifier: menu.faq
-      name: FAQ
-      url: /faq/
-      weight: 6
-    - identifier: contact
-      name: Contact
+      weight: 2
+    - identifier: menu.meetup
+      name: Meetup
+      url: ''
+      weight: 3
+    - identifier: menu.datathon
+      name: Datathon
+      url: ''
+      weight: 4
+    - identifier: menu.about
+      name: About
       url: /contact/
-      weight: 7
+      weight: 5
+    - name: Contact
+      parent: menu.about
+      url: /contact/
+      weight: 1
+    - identifier: menu.video
+      name: Video
+      url: 'https://youtube.com/channel/UCTyVNJF2D0BegashtEk3aPg'
+      weight: 6      
   topbar:
-    - name: Phone
-      pre: <i class='fas fa-2x fa-phone'></i>
-      url: tel:+234
+    - name: Email
+      pre: <i class='fas fa-2x fa-envelope'></i>
+      url: mailto:lagos.r.users.group@gmail.com
       weight: 1
     - name: GitHub
       pre: <i class='fab fa-2x fa-github'></i>
       url: https://github.com/LagosRUsersGroup
       weight: 2
+    - name: GitHub
+      pre: <i class='fab fa-2x fa-youtube'></i>
+      url: https://youtube.com/channel/UCTyVNJF2D0BegashtEk3aPg
+      weight: 2    
     - name: Facebook
       pre: <i class='fab fa-2x fa-facebook'></i>
       url: http://facebook.com
@@ -257,22 +59,27 @@ menu:
       pre: <i class='fab fa-2x fa-twitter'></i>
       url: http://twitter.com/lagosrusers
       weight: 4
-    - name: Email
-      pre: <i class='fas fa-2x fa-envelope'></i>
-      url: mailto:lagos.r.users.group@gmail.com
+    - name: WhatsApp
+      pre: <i class='fab fa-2x fa-whatsapp'></i>
+      url: https://chat.whatsapp.com/HVMlwFWUWgu3kIk61snHAt
       weight: 5
+    - name: Telegram
+      pre: <i class='fab fa-2x fa-telegram'></i>
+      url: https://t.me/+HoAEqTJ3JYsyZWE0
+      weight: 6      
+
 params:
   about_us: <p>Lagos R User Group is a community of R Programming Language users in Lagos.</p>
   address: ""
   author: LagosRUsersGroup
-  carouselCustomers:
-    auto_play: no
-    items: 6
-    pagination_speed: 1000
-    slide_speed: 2000
   carouselHomepage:
     auto_play: yes
     enable: yes
+    pagination_speed: 1000
+    slide_speed: 2000
+  carouselCustomers:
+    auto_play: no
+    items: 6
     pagination_speed: 1000
     slide_speed: 2000
   carouselTestimonials:
@@ -281,9 +88,9 @@ params:
     pagination_speed: 1000
     slide_speed: 2000
   clients:
-    enable: no
+    enable: yes
     subtitle: ''
-    title: Our Clients
+    title: Our Sponsors
   contact_form_ajax: no
   contact_url: /contact
   copyright: Copyright (c) 2022, LagosRUsersGroup; all rights reserved.
@@ -320,23 +127,21 @@ params:
     subtitle: Checkout our latest blog posts.
     title: From our Blog
   see_more:
-    enable: no
+    enable: yes
     icon: far fa-file-alt
-    link_text: Check other homepages
-    link_url: '#'
-    subtitle: We have prepared for you more than 40 different HTML pages, including
-      5 variations of homepage.
-    title: Do you want to see more?
+    link_text: 'Meetup'
+    link_url: 'https://www.meetup.com/LagosRUsers/join'
+    title: Join the Community
+    subtitle: ''
+    
   style: blue
   testimonials:
     enable: no
-    subtitle: We have worked with many clients and we always like to hear they come
-      out from the cooperation happy and satisfied. Have a look what our clients said
-      about us.
+    subtitle: What the community member are saying.
     title: Testimonials
   topbar:
-    enable: no
-    text: "<p class=\"hidden-sm hidden-xs\">Contact us on +234  or lagos.r.users.group@gmail.com.</p>\r\n
+    enable: yes
+    text: "
       \     <p class=\"hidden-md hidden-lg\"><a href=\"tel:+234 \" data-animate-hover=\"pulse\"><i
       class=\"fas fa-phone\"></i></a>\r\n      <a href=\"mailto:lagos.r.users.group@gmail.com\"
       data-animate-hover=\"pulse\"><i class=\"fas fa-envelope\"></i></a>\r\n      </p>\r\n

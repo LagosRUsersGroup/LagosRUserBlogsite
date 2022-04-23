@@ -1,6 +1,6 @@
 ---
 id: contact
-title: Contact
+title: contact
 ---
 
 # We are here to help you
