@@ -1,5 +1,5 @@
+baseurl: https://www.lagosrusers.com/
 # baseurl: https://lagosrusers.netlify.app/
-baseurl: https://lagosrusers.com/
 title: LagosRusersGroup
 theme: hugo-universal-theme
 languageCode: en-us
