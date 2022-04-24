@@ -20,11 +20,11 @@ menu:
       weight: 2
     - identifier: menu.meetup
       name: Meetup
-      url: ''
+      url: /meetup/
       weight: 3
     - identifier: menu.datathon
       name: Datathon
-      url: ''
+      url: /datathon/
       weight: 4
     - identifier: menu.about
       name: About
